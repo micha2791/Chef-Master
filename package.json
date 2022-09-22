@@ -1,7 +1,7 @@
 {
   "name": "recipe-site",
   "version": "1.0.0",
-  "description": "## Deployed app on heroku: http://git-cookin.herokuapp.com/",
+  "description": "## Deployed app on heroku: https://projectchefmaster.herokuapp.com/",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
