@@ -10,14 +10,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/d-belleza/recipe-site.git"
+    "url": "https://github.com/micha2791/Chef-Master"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/d-belleza/recipe-site/issues"
   },
-  "homepage": "https://github.com/d-belleza/recipe-site#readme",
+  "homepage": "https://github.com/micha2791/Chef-Master",
   "dependencies": {
     "bcrypt": "^5.0.1",
     "connect-session-sequelize": "^7.0.1",

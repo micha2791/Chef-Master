@@ -1,4 +1,4 @@
-# Git Cookin'
+# Chef Master'
 
 ## Deployed app on heroku: 
 
@@ -21,30 +21,5 @@ This application was built to allow users to find new recipes and share their ow
 * Sass
 * Express.js
 
-## Screenshots
-
-* Homepage View
-Shows featured recipes. Only has options to login or see recipes until logged in.
-<img src="public/images/localhost_3001_ (1).png">
-
-* Login Page 
-Also has option to sign up instead
-<img src="public/images/Screen Shot 2020-09-05 at 6.17.10 PM.png">
-
-* Single Recipe View
-When clicking on a recipe, you'll be routed to this view. In ths view, if you are logged in, you can see all comments and add comments to the post.
-<img src="public/images/localhost_3001_recipes_1.png">
-
-* Dashboard View
-When logged in, you can view your dashboard that shows your recipes. Here you have the ability to edit or delete your recipes.
-<img src="public/images/localhost_3001_dashboard.png">
-
-* Add Recipe View
-<img src="public/images/localhost_3001_dashboard_new.png">
-
-* Categories View
-You can either view all recipes or view by category.
-<img src="public/images/localhost_3001_recipes.png">
-
 ## Contributing
-This application was created by <a href="" target="_blank">Michael Correa</a>, 
+This application was created by <a href="https://github.com/micha2791/Chef-Master" target="_blank">Michael Correa</a>, 
