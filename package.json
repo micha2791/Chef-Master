@@ -15,9 +15,9 @@
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/d-belleza/recipe-site/issues"
+    "url": "https://micha2791.github.io/Chef-Master/"
   },
-  "homepage": "https://github.com/micha2791/Chef-Master",
+  "homepage": "https://micha2791.github.io/Chef-Master/",
   "dependencies": {
     "bcrypt": "^5.0.1",
     "connect-session-sequelize": "^7.0.1",
