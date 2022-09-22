@@ -1,0 +1,81 @@
+<aside id="fh5co-hero">
+    <div class="hero-banner jumbotron jumbotron-fluid">
+        
+        <video autoplay muted loop>    
+            <source src="" data-src="images/coverr-chef-cooking.mp4" type="video/mp4">
+            </video>
+        <div class="container">
+            <div class="col-md-12 text-center">
+                <div class="desc">
+                    <p>With more and more people choosing to #stayhome, home cooked meals are becoming increasingly popular. But cooking the same meals again and again can get old pretty quickly. Git Cookin’ allows users to share their favorite recipes and to find new recipes to try out at the same time.</p>
+                        <hr>
+                    <p>Stay Safe. Stay Healthy. Stay Cooking.</p>
+                    <h2><a href="/recipes" class="btn btn-primary btn-outline btn-lg">Let's Cook</a></h2>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</aside>
+
+<div id="fh5co-services" class="fh5co-bg-section">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3 col-sm-3 text-center">
+                <a href="/recipes/category/Appetizers">
+                    <div class="feature-center animate-box" data-animate-effect="fadeIn">
+                        <span class="icon">
+                            <i class="flaticon-appetizer"></i>
+                        </span>
+                        <h3 class="btn btn-primary btn-outline">Appetizers</h3>
+                    </div>
+                </a>
+            </div>
+            <div class="col-md-3 col-sm-3 text-center">
+                <a href="/recipes/category/Breakfast">
+                    <div class="feature-center animate-box" data-animate-effect="fadeIn">
+                        <span class="icon">
+                            <i class="flaticon-fried-egg"></i>
+                        </span>
+                        <h3 class="btn btn-primary btn-outline">Breakfast</h3>
+                    </div>
+                </a>
+            </div>
+            <div class="col-md-3 col-sm-3 text-center">
+                <a href="/recipes/category/Entree">
+                    <div class="feature-center animate-box" data-animate-effect="fadeIn">
+                        <span class="icon">
+                            <i class="flaticon-boiled"></i>
+                        </span>
+                        <h3 class="btn btn-primary btn-outline">Entrée</h3>
+                    </div>
+                </a>
+            </div>
+            <div class="col-md-3 col-sm-3 text-center">
+                <a href="/recipes/category/Dessert">
+                    <div class="feature-center animate-box" data-animate-effect="fadeIn">
+                        <span class="icon">
+                            <i class="flaticon-piece-of-cake"></i>
+                        </span>
+                        <h3 class="btn btn-primary btn-outline">Dessert</h3>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="fh5co-started">
+    <div class="container">
+        <div class="row animate-box">
+            <div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
+                <h2>Featured Recipes</h2>
+            </div>
+        </div>
+        <div class="row">
+        {{#each recipes as |recipe|}}
+        {{> recipe-info recipe }}
+        {{/each}}
+        </div>
+    </div>
+</div>
